@@ -8,7 +8,7 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Background="#182130"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize">
     <Grid x:Name="titleBar" Grid.Row="0" Width="515" Height="36" VerticalAlignment="Top" HorizontalAlignment="Center" Background="#273344">
         <TextBlock HorizontalAlignment="Center" FontSize="24" FontWeight="Regular" Foreground="White" Margin="0,0,400,0">Dyre</TextBlock>
 

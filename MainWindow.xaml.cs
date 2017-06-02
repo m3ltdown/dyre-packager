@@ -23,6 +23,7 @@ namespace dyre_packager
         public MainWindow()
         {
             InitializeComponent();
+            titleBar.MouseLeftButtonDown += (o, e) => DragMove();
         }
     }
 }
